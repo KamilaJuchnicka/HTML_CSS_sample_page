@@ -326,6 +326,7 @@ section.content img.col {
   color: black;
   font-weight: bold;
   letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .text h1 span {
@@ -369,26 +370,26 @@ section.box.col{
 }
 
 .boxes {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
 div.box1 {
-  height:170px;
+  height:190px;
   width: 260px;
   background-image: url("../images/box1_img.jpg");
   background-position: center;
   background-color: blue;
-  margin: 0 7px;
+  margin: 0 8px;
 }
 
 div.box2 {
-  height: 170px;
+  height: 190px;
   width: 260px;
   background-image: url("../images/box2_img.jpg");
   background-position: center;
   background-color: blue;
-  margin: 0 7px;
+  margin: 0 8px;
 
 }
 
@@ -399,21 +400,21 @@ div.box3{
 }
 
 div.box3{
-  border: 1px solid #c9c8c8;
+  border: 1px solid #e2e2e2;
   padding: 20px;
 
 }
 
-div.box3 h3{
+.box3 h3{
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  display: inline;
+  border-bottom: 6px solid #38c3ad;
 
 }
 
 div.box3 p{
-  padding-top: 10px;
-  color: #c9c8c8;
+  padding-top: 20px;
+  color: #606058;
 }
 
 div.clairchair span{
@@ -426,70 +427,105 @@ div.clairmargerita span{
 }
 
 .clairchair {
-  margin-top: 45%;
+  margin-top: 50%;
   padding-left: 6%;
-  padding-bottom: 6%;
-  padding-top: 2%;
+  padding-bottom: 8%;
+  padding-top: 5%;
   background-color: rgba(238, 237, 237, 0.6);
 
 }
 
 .clairmargerita {
-  margin-top: 45%;
+  margin-top: 50%;
   padding-left: 5%;
-  padding-bottom: 6%;
-  padding-top: 2%;
+  padding-bottom: 8%;
+  padding-top: 5%;
   background-color: rgba(238, 237, 237, 0.6);
 }
 
 /*Price*/
 
-section.container div.col
-section.box{
-  background: white;
+.text h2{
+  width: 30%;
+  color: #4d4c4c;
+  border-bottom: 6px solid #38c3ad;
 
 }
 
-section.box.col{
+/*section.container div.col
+section.box{
+  background: white;
+
+}*/
+
+/*section.box.col{
   width: 30%;
   min-height:150px;
   background:white;
 
-}
+}*/
 
 section.price {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   height: auto;
-  background-color: #e2e2e2;
+  background-color: #f0f0f0;
 
 }
 
 div.prizing1 {
   height:400px;
   width: 280px;
-  border: 1px solid black;
+  border: 2px solid #bfbfbf;
   margin: 60px 7px;
+  position: relative;
+  background-color: #f9f9f9;
+
 }
 
 div.prizing2 {
   height: 400px;
   width: 280px;
-  border: 1px solid black;
+  border: 2px solid #bfbfbf;
   margin: 60px 7px;
+  position: relative;
+  background-color: #f9f9f9;
+
 
 }
 
 div.prizing3{
   height: 400px;
   width: 280px;
-  border: 1px solid black;
+  border: 2px solid #bfbfbf;
   margin: 60px 7px;
+  position: relative;
+  background-color: #f9f9f9;
+
 }
 
-.text h2{
-  color: #4d4c4c;
-  border-bottom: 4px solid #38c3ad;
+.outsidecircle {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  position: absolute;
+  left: 39%;
+  top: -8%;
+  background-color: #f9f9f9;
+
+}
+
+.insidecircle {
+  height: 22px;
+  width: 22px;
+  border: 1px solid #bfbfbf;
+  border-radius: 50%;
+  position: absolute;
+  left: 28%;
+  top: 28%;
+  background-color: #bfbfbf;
+
 }
 
 
