@@ -474,35 +474,153 @@ section.price {
 }
 
 div.prizing1 {
-  height:400px;
+  height:430px;
   width: 280px;
   border: 2px solid #bfbfbf;
   margin: 60px 7px;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
 
+}
+
+.prizing1:hover{
+	background-color: #38c3ad;
+	border-color: #38c3ad;
+}
+
+.prizing1:hover > .outsidecircle{
+	background-color: #38c3ad;
+	border: 0px;
+}
+
+.prizing1:hover .insidecircle{
+	background-color: white;
+}
+
+.prizing1:hover .pricetag{
+	color: #38c3ad;
+	border: 2px solid white;
+}
+
+.prizing1:hover .pricetag h2 {
+	color: #38c3ad;
+}
+.prizing1:hover .pricetag p {
+	color: #38c3ad;
+}
+
+.prizing1:hover .join a{
+  color: #38c3ad;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.prizing1:hover .delivery {
+	background-color: white;
+}
+.prizing1:hover h1 {
+	color: white;
 }
 
 div.prizing2 {
-  height: 400px;
+  height: 430px;
   width: 280px;
   border: 2px solid #bfbfbf;
   margin: 60px 7px;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
+}
 
+.prizing2:hover{
+	background-color: #38c3ad;
+	border-color: #38c3ad;
+}
 
+.prizing2:hover > .outsidecircle{
+	background-color: #38c3ad;
+	border: 0px;
+}
+
+.prizing2:hover .insidecircle{
+	background-color: white;
+}
+
+.prizing2:hover .pricetag{
+	color: #38c3ad;
+	border: 2px solid white;
+}
+
+.prizing2:hover .pricetag h2 {
+	color: #38c3ad;
+}
+.prizing2:hover .pricetag p {
+	color: #38c3ad;
+}
+
+.prizing2:hover .join a{
+  color: #38c3ad;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.prizing2:hover .delivery {
+	background-color: white;
+}
+
+.prizing2:hover h1 {
+	color: white;
 }
 
 div.prizing3{
-  height: 400px;
+  height: 430px;
   width: 280px;
   border: 2px solid #bfbfbf;
   margin: 60px 7px;
   position: relative;
-  background-color: #f9f9f9;
-
+  background-color: #f6f6f6;
 }
+
+.prizing3:hover{
+	background-color: #38c3ad;
+	border-color: #38c3ad;
+}
+
+.prizing3:hover > .outsidecircle{
+	background-color: #38c3ad;
+	border: 0px;
+}
+
+.prizing3:hover .insidecircle{
+	background-color: white;
+}
+
+.prizing3:hover .pricetag{
+	color: #38c3ad;
+	border: 2px solid white;
+}
+
+.prizing3:hover .pricetag h2 {
+	color: #38c3ad;
+}
+.prizing3:hover .pricetag p {
+	color: #38c3ad;
+}
+
+.prizing3:hover .join a{
+  color: #38c3ad;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.prizing3:hover .delivery {
+	background-color: white;
+}
+
+.prizing3:hover h1 {
+	color: white;
+}
+
+
 
 .outsidecircle {
   height: 50px;
@@ -525,6 +643,89 @@ div.prizing3{
   left: 28%;
   top: 28%;
   background-color: #bfbfbf;
+
+}
+
+.plan h1{
+	text-align: center;
+	padding-top: 10%;
+	color: #38c3ad;
+	font-size: 20px;
+	margin-bottom: 10%;
+}
+
+div.pricetag{
+	width: 120px;
+	height: 120px;
+	border: 2px solid #bfbfbf;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+.pricetag h2, p{
+	text-align: center;
+	color: #bfbfbf;
+	font-weight: bold;
+}
+
+.pricetag h2{
+	padding-top: 25px;
+	font-size: 40px;
+	position: relative;
+
+}
+
+
+sup{
+	font-size: 10px;
+	position:absolute;
+	padding-top: 40px;
+
+}
+
+.pricetag p{
+	padding-top: 5%;
+	font-size: 11px;
+}
+
+.whatfor p{
+	color: #bfbfbf;
+	font-weight:normal;
+}
+
+p.delivery {
+	margin-top: 25px;
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: rgb(230, 230, 230);
+	padding: 10px 0;
+	border-top: 1px solid white;
+}
+
+p.service {
+	background-color: rgb(240, 240, 240);
+	padding: 10px 0;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.join{
+	margin-top: 75px;
+	margin-left: 30%;
+}
+
+.join a{
+  display: inline-block;
+  text-decoration:none;
+  color: white;
+  border: 1px solid #38c3ad;
+  background-color: #38c3ad;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 6px 24px;
+  border-radius: 5px;
 
 }
 
