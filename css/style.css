@@ -729,6 +729,13 @@ p.service {
 
 }
 
+p.warranty {
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: rgb(230, 230, 230);
+	padding: 10px 0;
+}
+
 
 
 /*Footer*/
