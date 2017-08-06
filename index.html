@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -14,9 +15,22 @@
         <h4 class="col">SIT <span>ON</span> CHAIR</h4>
         <nav class="col">
           <ul>
-            <li><a href="#">O FIRMIE</a></li>
-            <li><a href="#">GALERIA</a></li>
-            <li><a href="#">KONTAKT</a></li>
+            <li id="downborder">
+                <a href="#">O FIRMIE</a>
+                <div id="invisible"></div>
+                <div id="triangle"></div>
+                <ul id="downmenu">
+                    <li><a href="#">Aktualności</a></li>
+                    <li><a href="#">Nasz Team</a></li>
+                    <li><a href="#">Historia</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">GALERIA</a>
+            </li>
+            <li>
+                <a href="#">KONTAKT</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -27,7 +41,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <p><</p>
+        <button type="button" class="left"> &lt; </button>
       </div>
       <img src="images/black_chair.png" class="col"alt="This is leather chair">
       <div class="col text">
@@ -36,7 +50,7 @@
         <a href="#">ZOBACZ WIĘCEJ</a>
       </div>
       <div class="col">
-        <p class=arrow>></p>
+        <button type="button" class="right"> &gt; </button>
       </div>
     </div>
   </div>
@@ -141,14 +155,74 @@
   </div>
 </section>
 
+<section class="section-contact">
+    <div class="container">
+        <h2 class="title-border title-border-big">
+            <span> Kontakt </span>
+        </h2>
+
+        <form class="contact-us-form" method="POST" action="">
+            <div class="row">
+
+                <div class="col col-1-2 col-left">
+                    <div>
+                        <label for="formName">Imię</label>
+                        <input type="text" name="name" placeholder="Imię" id="formName">
+                    </div>
+                    <div>
+                        <label for="formEmail">Email</label>
+                        <input type="email" name="email" placeholder="Email" id="formEmail">
+                    </div>
+                    <div>
+                        <label for="formMessage">Wiadomość</label>
+                        <textarea id="formMessage" name="message" placeholder="Wiadomość"></textarea>
+                    </div>
+                </div>
+
+                <div class="col col-1-2 col-right">
+                    <span class="contact-us-form-img"></span>
+                    <label class="checkbox-label">
+                        <input type="checkbox">
+                        <span class="checkbox-icon"></span>
+                        <span class="checkbox-text">
+                            Zgadzam się na przetwarzanie danych osobowych
+                        </span>
+                    </label>
+                    <div>
+                        <button class="accept" type="submit" >Wyślij</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col">
-        CodersLab 2017
+      <div class="col footer">
+        Copyright 2014 | All Rights Reserved. - Sit On Chair
       </div>
-      <div class="col">
-        LOGO
+      <div class="social">
+          <small class="footer-logo">
+            Sit <span>On</span> Chair
+          </small>
+          <ul class="social-icons">
+            <li>
+                <a class="social social-flickr" href="">Flickr</a>
+                    </li>
+                    <li>
+                      <a class="social social-vimeo" href="">Vimeo</a>
+                    </li>
+                    <li>
+                      <a class="social social-pinterest" href="">Pinterest</a>
+                    </li>
+                    <li>
+                      <a class="social social-twitter" href="">Twitter</a>
+                    </li>
+            </ul>
+
+        </div>
       </div>
       </div>
     </div>
